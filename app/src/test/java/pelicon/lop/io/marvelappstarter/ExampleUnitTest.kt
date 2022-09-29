@@ -1,4 +1,4 @@
-package daniel.lop.io.marvelappstarter
+package pelicon.lop.io.marvelappstarter
 
 import org.junit.Test
 

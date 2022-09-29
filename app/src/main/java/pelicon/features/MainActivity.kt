@@ -1,8 +1,8 @@
-package daniel.lop.io.marvelappstarter
+package pelicon.features
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import daniel.lop.io.marvelappstarter.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import pelicon.marvel.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

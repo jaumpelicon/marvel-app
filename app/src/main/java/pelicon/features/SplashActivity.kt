@@ -1,8 +1,9 @@
-package daniel.lop.io.marvelappstarter
+package pelicon.features
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import daniel.lop.io.marvelappstarter.databinding.ActivitySplashBinding
+import androidx.appcompat.app.AppCompatActivity
+import pelicon.marvel.R
+import pelicon.marvel.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
 
