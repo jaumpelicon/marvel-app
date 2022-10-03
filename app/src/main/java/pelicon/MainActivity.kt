@@ -1,4 +1,4 @@
-package pelicon.features
+package pelicon
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

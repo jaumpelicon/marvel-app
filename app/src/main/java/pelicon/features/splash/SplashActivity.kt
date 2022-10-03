@@ -1,9 +1,10 @@
-package pelicon.features
+package pelicon.features.splash
 
 import android.animation.Animator
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import pelicon.MainActivity
 import pelicon.marvel.R
 import pelicon.marvel.databinding.ActivitySplashBinding
 
