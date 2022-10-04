@@ -7,14 +7,14 @@ import androidx.appcompat.app.AppCompatActivity
 import pelicon.MainActivity
 import pelicon.marvel.R
 import pelicon.marvel.databinding.ActivitySplashBinding
+import pelicon.support.ui.viewBinding
 
 class SplashActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivitySplashBinding
+    private val binding by viewBinding(ActivitySplashBinding::inflate)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setup()
     }
